@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>لیست کارها</title>
+    <style>
+        body { font-family: Tahoma; background: #f4f4f4; padding: 30px; }
+        h1 { color: #333; }
+        ul { background: #fff; padding: 20px; border-radius: 10px; }
+        li { margin: 10px 0; font-size: 18px; }
+        .done { text-decoration: line-through; color: gray; }
+    </style>
+</head>
+<body>
+    <h1>لیست کارهای من</h1>
+    <ul>
+        {% for task in tasks %}
+            <li class="{% if task.completed %}done{% endif %}">
+                {{ task.title }}
+            </li>
+        {% empty %}
+            <li>هیچ کاری ثبت نشده.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
