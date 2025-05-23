@@ -13,7 +13,7 @@ This project is part of my learning journey in web development using Python.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️  Tech Stack
 - Python
 - Django
 - HTML & CSS (with Django Templates)
