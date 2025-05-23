@@ -1,15 +1,5 @@
-# 📝 To-Do Django App
-
-A simple web-based To-Do list application built with **Django**.  
-This project is part of my learning journey in web development using Python.
-
----
-
-## 🚀 Features
-- Add, edit, and delete to-do items
-- Mark tasks as completed
-- Admin panel for task management
-- Responsive and clean interface
+## 📄 Resume
+You can view my full resume here: [Click to Open]((https://shorturl.at/aUyi9).com)
 
 ---
 
